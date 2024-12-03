@@ -1,0 +1,3 @@
+# Dynamic Route Client-Side Navigation Issue in Next.js 15 App Router
+
+This repository demonstrates a bug encountered when using dynamic routes and client-side navigation in Next.js 15's App Router.  The issue arises when navigating between pages with dynamic segments, sometimes leading to unexpected behavior or rendering errors. The bug is specifically related to how the app router handles the update of the URL when navigating with the Link component to dynamic routes after initial page load or after rendering a dynamic segment.
